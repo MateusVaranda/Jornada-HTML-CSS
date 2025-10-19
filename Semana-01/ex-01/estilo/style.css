@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Layout geral da página*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    min-height: 100vh;
+    display: flex; /*body ficou flexivel*/
+    flex-direction: column; /*coluna*/
+}
+
+/* Cabeçalho na página*/
+header {
+    position: fixed; /*cabeçalho fixo*/
+    top: 0;
+    left: 0;
+    width: 100%; /*deixando o header ocupa o tamanho da tela horizontal*/
+    background-color: #333333;
+    color: white;
+    text-align: center; /*Texto centralizado*/
+    padding: 15px 0;
+}
+
+/* Conteúdo principal */
+main{
+    margin-top: 80px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 140px); /**/
+}
+
+/* Seção de apresentação */
+.apresentacao {
+    max-width: 800px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.301);
+}
+
+/*imagem*/
+.apresentacao img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+/* Rodapé */
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
