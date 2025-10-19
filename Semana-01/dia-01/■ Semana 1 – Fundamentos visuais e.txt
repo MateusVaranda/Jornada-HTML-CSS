@@ -1,0 +1,13 @@
+■ Semana 1 – Fundamentos visuais e posicionamento básico
+
+Meta: entender o fluxo natural dos elementos e dominar display, margin, padding e position.
+Segunda a Quarta:
+
+-	Revise display, margin, padding e position.
+-	Monte um layout com header fixo, conteúdo centralizado e rodapé fixo.
+
+
+Quinta e Sexta:
+
+-	Treine no Flexbox Froggy.
+-	Crie dois mini projetos com cabeçalho e seção de imagem + texto.
